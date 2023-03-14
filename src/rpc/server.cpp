@@ -386,6 +386,7 @@ static const CRPCCommand vRPCCommands[] =
         {"hibera", "checkbudgets", &checkbudgets, true },
         {"hibera", "mnsync", &mnsync, true },
         {"hibera", "spork", &spork, true },
+        {"hibera", "getcollateral", &getcollateral, true},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
